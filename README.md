@@ -5,6 +5,7 @@ While it was possible to have applications access the interface programatically,
 https://github.com/ollama/ollama 
 
 After a few days of running different llms like llama3, gemma, and mistral, we decided to look further into how we could access them on other devices without needing to redownload the llms and the ollama platofrm. We found out that by installing and using docker as well as ngrok, we would be able to run our local host on any device. First, you would want to paste http://127.0.0.1:11434/ into your browser in order to make sure that ollama is running succesfully on your local host. Next, you want to download docker at https://docs.docker.com/desktop/install/mac-install/ 
+
 After installation, you want to run the following commands:
 docker run -d \
 -p 3000:8080 \
