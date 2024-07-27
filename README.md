@@ -19,6 +19,7 @@ You can check if everything is still working correctly by pasting http://127.0.0
 ngrok config add-authtoken <TOKEN>
 ngrok http http://localhost:3000
 Finally, a screen similar to one below will appear, and the link that can be used on any device to access your open source llms will be the link following "Forwarding".
+
 <img width="396" alt="Screenshot 2024-07-27 at 11 16 06 AM" src="https://github.com/user-attachments/assets/f7ef78f3-21ce-4355-aef1-72d272792a68">
 
 
