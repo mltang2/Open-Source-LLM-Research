@@ -13,6 +13,7 @@ docker run -d \
 --name open-webui \
 --restart always \
 ghcr.io/open-webui/open-webui:main 
+
 You can check if everything is still working correctly by pasting http://127.0.0.1:3000/auth into a web browser. Once ngrok is downloaded https://ngrok.com/download , find your token on ngrok, and type the following commands in your terminal:
 ngrok config add-authtoken <TOKEN>
 ngrok http http://localhost:3000
