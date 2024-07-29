@@ -26,6 +26,7 @@ Finally, a screen similar to one below will appear, and the link that can be use
 
 
 Once we discovered how to access any open source llm on any device, our next step was figure out if it was possible to run fine tuned versions of open source llms on Ollama as well. After digging a little deeper, we found that it was possible to download pre fine tuned open source llms from HuggingFace, and upload it onto Ollama. The process of doing so can be described below. \
+\
 To make things easier, I will be using an example model called jackalope which is a fine tuned version of the open source llm mistral that can be found on HuggingFace. Once on the model, find the GGUF quantized version of the model and download it. 
 
 <img width="589" alt="Screenshot 2024-07-29 at 3 54 25 PM" src="https://github.com/user-attachments/assets/02e5de65-e75f-41f5-ae8e-3cd214c2c3b4"> <img width="861" alt="Screenshot 2024-07-29 at 3 55 01 PM" src="https://github.com/user-attachments/assets/3fe48963-ba15-41d8-9083-12caf59360ac">
