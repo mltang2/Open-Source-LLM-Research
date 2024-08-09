@@ -36,6 +36,6 @@ Once downloaded, open back the terminal and run the command "ollama show '*model
 <img width="326" alt="Screenshot 2024-08-09 at 12 59 08 PM" src="https://github.com/user-attachments/assets/5010708d-0325-47e8-ae7b-266db2affa69">
 
 Open a nano document, and paste the template into it. Save the template, then exit out of it. Finally, in the terminal run the line "ollama create '*whatever name you choose*' -f ./'*name of nano document*'"
-From there simiply do "ollama run '*new llm name*'" and you will have sucessfully created and ran your fine tuned llm. 
+From there simiply do "ollama run '*whatever name you chose*'" and you will have sucessfully created and ran your fine tuned llm. 
 
 
