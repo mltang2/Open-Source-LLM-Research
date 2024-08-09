@@ -31,4 +31,10 @@ To make things easier, I will be using an example model called jackalope which i
 
 <img width="589" alt="Screenshot 2024-07-29 at 3 54 25 PM" src="https://github.com/user-attachments/assets/02e5de65-e75f-41f5-ae8e-3cd214c2c3b4"> <img width="861" alt="Screenshot 2024-07-29 at 3 55 01 PM" src="https://github.com/user-attachments/assets/3fe48963-ba15-41d8-9083-12caf59360ac">
 
+Once downloaded, open back the terminal and run the command "ollama show *model name* –modelfile". Since my model name in this case was mistral, a template similar to the one will show up. 
+<img width="326" alt="Screenshot 2024-08-09 at 12 59 08 PM" src="https://github.com/user-attachments/assets/5010708d-0325-47e8-ae7b-266db2affa69">
+
+Open a nano document, and paste the template into it. Save the template, then exit out of it. Finally, in the terminal run the line "ollama create *whatever name you choose* -f ./*name of nano document*"
+From there simiply do "ollama run *new llm name*" and you will have sucessfully created and ran your fine tuned llm. 
+
 
