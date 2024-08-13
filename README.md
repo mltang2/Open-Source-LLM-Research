@@ -38,5 +38,6 @@ Once downloaded, open back the terminal and run the command "ollama show '*model
 Open a nano document, and paste the template into it. Save the template, then exit out of it. Finally, in the terminal run the line "ollama create '*whatever name you choose*' -f ./'*name of nano document*'"
 From there simiply do "ollama run '*whatever name you chose*'" and you will have sucessfully created and ran your fine tuned llm. 
 \
+\
 The next question we were looking to answer was what how could we best quantize a fine tuned open source llm while being mindful of time, space, hardware, and memory. The end goal was to allow students to easily quantize models to GGUF, and we understood that many students had differents types of devices, older or newer. After a bit of searching, we decided that it would be best to use a resource that was cloud-based. We came across a Google Colab Notebook and decided to try it out. This fit our criteria as it was a free, cloud-based platform, and offered everyone access to a GPU and TPU. 
 
