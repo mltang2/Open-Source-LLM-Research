@@ -45,11 +45,15 @@ https://colab.research.google.com/drive/13dVitv_DBCTprbCarKwFJdf8qG76y6hD?usp=sh
 Above is the link to the Google Colab. Essentially, this notebook gives a template to automate setting up and quantizing a model. The template does this by handling model loading, environment setup, model quantization, and finally uploading the model to hugginface.
 
 Up until now, we had been using pre fine tuned models to use on ollama. Our last step was to actually fine tune a model. To fine tune a model, we looked at several methods and found the approach using LitGPT to be the easiest. The LitGPT github is linked below.
+\
 https://github.com/Lightning-AI/litgpt?tab=readme-ov-file 
 To get started, enter the following command:
 git clone https://github.com/Lightning-AI/litgpt
+\
 cd litgpt
+\
 pip install -e '.[all]'
+\
 Next, download whichever open source llm you are looking to fine tune. The list of available llms can be found on the github page or by entering "litgpt download list" in the terminal. Once downloaded, you can then proceed with fine tuning to your specific needs. This method is great as it allows you to easily customize the model to your needs, without going through too many complicated steps. 
 
 With all these steps complete, you are now able take an open source llm, fine tun it, and access the llm on any device anywhere!
@@ -57,6 +61,7 @@ With all these steps complete, you are now able take an open source llm, fine tu
 Sources: 
 https://github.com/Lightning-AI/litgpt?tab=readme-ov-file 
 https://colab.research.google.com/drive/13dVitv_DBCTprbCarKwFJdf8qG76y6hD?usp=sharing 
+\
 https://www.youtube.com/@decoder-sh
 
 
