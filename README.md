@@ -44,3 +44,5 @@ https://colab.research.google.com/drive/13dVitv_DBCTprbCarKwFJdf8qG76y6hD?usp=sh
 \
 Above is the link to the Google Colab. Essentially, this notebook gives a template to automate setting up and quantizing a model. The template does this by handling model loading, environment setup, model quantization, and finally uploading the model to hugginface.
 
+Up until now, we had been using pre fine tuned models to use on ollama. Our last step was to actually fine tune a model. 
+
