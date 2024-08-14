@@ -60,6 +60,7 @@ Next, download whichever open source llm you are looking to fine tune. The list 
 With all these steps complete, you are now able take an open source llm, fine tun it, and access the llm on any device anywhere!
 
 Sources: 
+\
 https://github.com/Lightning-AI/litgpt?tab=readme-ov-file 
 https://colab.research.google.com/drive/13dVitv_DBCTprbCarKwFJdf8qG76y6hD?usp=sharing 
 \
