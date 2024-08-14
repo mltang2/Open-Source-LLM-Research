@@ -48,6 +48,7 @@ Up until now, we had been using pre fine tuned models to use on ollama. Our last
 \
 https://github.com/Lightning-AI/litgpt?tab=readme-ov-file 
 To get started, enter the following command:
+\
 git clone https://github.com/Lightning-AI/litgpt
 \
 cd litgpt
